@@ -1,0 +1,247 @@
+[saturn]
+# You can define multiple accounts. Make sure to use the first string for the e-mail the second for the password
+accounts = [["", ""]]
+start_url = ""
+
+categories = []
+category_regex = ""
+ignore_sleep = false
+id_replacements = []
+# check old online status field for basket check
+check_online_status = false
+# check the new replacment field for the basket check
+check_in_assortment = false
+# IDs of products you want to generate cookies for (strings)
+cookie_ids = []
+# Enable a cache busting mechansim by adding a query parameter
+cache_busting = true
+
+#Sleep Times
+min_sleep_time = ""
+max_sleep_time = ""
+
+# Beware that >10 can cause issues with Discord's 2000 characters limit!
+cookies = 10
+announce_cookies = false
+
+# Discord integration (optional)
+# You can set the same channel or role for all the types or a dedicated one for each type
+discord_bot_token = ""
+# Need to specify no cookie emoji, because fallback is not working right now
+discord_nocookie_emoji = "" 
+discord_activity_message = ""
+discord_channel = ""
+stock_discord_channel = ""
+other_stock_discord-channel = ""
+stock_discord_regex_channel = []
+cookie_discord_channel = ""
+admin_discord_channel = ""
+price_change_discord_channel = ""
+discord_role_ping = ""
+stock_discord_role_ping = ""
+stock_discord_regex_role_ping = []
+cookie_discord_role_ping = ""
+admin_discord_role_ping = ""
+price_change_discord_role_ping = ""
+
+# Twitter integration (optional)
+twitter_bearer_token = ""
+twitter_tags = []
+twitter_api_key = ""
+twitter_api_key_secret = ""
+twitter_access_token = ""
+twitter_access_token_secret = ""
+
+# Telegram integration (optional)
+telegram_bot_api_key = ""
+telegram_channel_id = ""
+
+# Important!
+# If you use multiple proxies, use the basic auth format: http://user:pass@foo.bar:8080
+# Set only proxy_urls or proxy_url NOT both
+proxy_urls = [""]
+proxy_url = ""
+proxy_username = ""
+proxy_password = ""
+
+dynamo_db_region = ""
+dynamo_db_table_name = ""
+dynamo_db_access_key = ""
+dynamo_db_secret_access_key = ""
+
+# WebSocket config
+use_websocket = false
+websocket_passwords = [""]
+websocket_port = 8080
+websocket_https = false
+websocket_cert_path = ""
+websocket_key_path = ""
+
+# The hashes from the queries. Tend to change often
+loginSHA256 = ""
+categorySHA256 = ""
+wishlistSHA256 = ""
+addProductSHA256 = ""
+getProductSHA256 = ""
+
+[mmde]
+# You can define multiple accounts. Make sure to use the first string for the e-mail the second for the password
+accounts = [["", ""]]
+start_url = ""
+
+categories = []
+category_regex = ""
+ignore_sleep = false
+id_replacements = []
+# check old online status field for basket check
+check_online_status = false
+# check the new replacment field for the basket check
+check_in_assortment = false
+# IDs of products you want to generate cookies for (strings)
+cookie_ids = []
+# Enable a cache busting mechansim by adding a query parameter
+cache_busting = true
+
+#Sleep Times
+min_sleep_time = ""
+max_sleep_time = ""
+
+# Beware that >10 can cause issues with Discord's 2000 characters limit!
+cookies = 10
+announce_cookies = false
+
+# Discord integration (optional)
+# You can set the same channel or role for all the types or a dedicated one for each type
+discord_bot_token = ""
+# Need to specify no cookie emoji, because fallback is not working right now
+discord_nocookie_emoji = "" 
+discord_activity_message = ""
+discord_channel = ""
+stock_discord_channel = ""
+other_stock_discord-channel = ""
+stock_discord_regex_channel = []
+cookie_discord_channel = ""
+admin_discord_channel = ""
+price_change_discord_channel = ""
+discord_role_ping = ""
+stock_discord_role_ping = ""
+stock_discord_regex_role_ping = []
+cookie_discord_role_ping = ""
+admin_discord_role_ping = ""
+price_change_discord_role_ping = ""
+
+# Twitter integration (optional)
+twitter_bearer_token = ""
+twitter_tags = []
+twitter_api_key = ""
+twitter_api_key_secret = ""
+twitter_access_token = ""
+twitter_access_token_secret = ""
+
+# Telegram integration (optional)
+telegram_bot_api_key = ""
+telegram_channel_id = ""
+
+# Important!
+# If you use multiple proxies, use the basic auth format: http://user:pass@foo.bar:8080
+# Set only proxy_urls or proxy_url NOT both
+proxy_urls = [""]
+proxy_url = ""
+proxy_username = ""
+proxy_password = ""
+
+dynamo_db_region = ""
+dynamo_db_table_name = ""
+dynamo_db_access_key = ""
+dynamo_db_secret_access_key = ""
+
+# WebSocket config
+use_websocket = false
+websocket_passwords = [""]
+websocket_port = 8080
+websocket_https = false
+websocket_cert_path = ""
+websocket_key_path = ""
+
+# The hashes from the queries. Tend to change often
+loginSHA256 = ""
+categorySHA256 = ""
+wishlistSHA256 = ""
+addProductSHA256 = ""
+getProductSHA256 = ""
+
+[mmat]
+# You can define multiple accounts. Make sure to use the first string for the e-mail the second for the password
+accounts = [["", ""]]
+start_url = ""
+
+categories = []
+category_regex = ""
+ignore_sleep = false
+id_replacements = []
+# check old online status field for basket check
+check_online_status = false
+# check the new replacment field for the basket check
+check_in_assortment = true
+# IDs of products you want to generate cookies for (strings)
+cookie_ids = []
+# Enable a cache busting mechansim by adding a query parameter
+cache_busting = true
+
+# Beware that >10 can cause issues with Discord's 2000 characters limit!
+cookies = 10
+announce_cookies = false
+
+# Discord integration (optional)
+# You can set the same channel or role for all the types or a dedicated one for each type
+discord_bot_token = ""
+discord_nocookie_emoji = ""
+discord_activity_message = ""
+discord_channel = ""
+stock_discord_channel = ""
+stock_discord_regex_channel = []
+cookie_discord_channel = ""
+admin_discord_channel = ""
+price_change_discord_channel = ""
+discord_role_ping = ""
+stock_discord_role_ping = ""
+stock_discord_regex_role_ping = []
+cookie_discord_role_ping = ""
+admin_discord_role_ping = ""
+price_change_discord_role_ping = ""
+
+# Twitter integration (optional)
+twitter_bearer_token = ""
+twitter_tags = []
+
+# Telegram integration (optional)
+telegram_bot_api_key = ""
+telegram_channel_id = ""
+
+# Important!
+# If you use multiple proxies, use the basic auth format: http://user:pass@foo.bar:8080
+# Set only proxy_urls or proxy_url NOT both
+proxy_urls = []
+proxy_url = ""
+proxy_username = ""
+proxy_password = ""
+
+dynamo_db_region = ""
+dynamo_db_table_name = ""
+dynamo_db_access_key = ""
+dynamo_db_secret_access_key = ""
+
+# WebSocket config
+use_websocket = false
+websocket_passwords = [""]
+websocket_port = 8080
+websocket_https = false
+websocket_cert_path = ""
+websocket_key_path = ""
+
+# The hashes from the queries. Tend to change often
+loginSHA256 = ""
+categorySHA256 = ""
+wishlistSHA256 = ""
+addProductSHA256 = ""
+getProductSHA256 = ""

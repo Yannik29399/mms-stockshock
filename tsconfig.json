@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ES2020",
+        "module": "CommonJS",
+        "lib": ["ES2020", "DOM"],
+        "declaration": false,
+        "sourceMap": false,
+        "outDir": "./dist",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "typeRoots": ["node_modules/@types", "types"]
+    },
+    "include": ["src/"],
+    "compileOnSave": false
+}
