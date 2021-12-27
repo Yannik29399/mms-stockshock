@@ -44,7 +44,7 @@ export class CooldownManager {
         let cooldownTime: Duration;
         if (isProductBuyable) {
             cooldownTime = {
-                minutes: 5,
+                hours: 5,
             };
         } else if (canBeAddedToBasket) {
             cooldownTime = {
