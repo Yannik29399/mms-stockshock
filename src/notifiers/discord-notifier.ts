@@ -420,8 +420,7 @@ export class DiscordNotifier implements Notifier {
             return embed;
         }
         embed.setImage(`https://assets.mmsrg.com/isr/166325/c1/-/${item.product.titleImageId}/mobile_200_200.png`);
-        embed.setTitle(item.product.title);
-        //embed.setURL(`${this.productHelper.getProductURL(item, this.store, this.replacements)}`);
+        embed.setTitle(item.product.title); 
         embed.setURL(`${this.productHelper.getProductURL(item, this.store, this.replacements)}`);
         return embed;
     }
