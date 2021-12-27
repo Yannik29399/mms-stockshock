@@ -47,7 +47,7 @@ export class TwitterNotifier implements Notifier {
             storeConfig.id_replacements.map((pair) => {
                 const id = pair[key];
                 const url = pair[value];
-                this.replacements.set(id, url);
+                this.replacements.set(id, url); 
             });
         }
     }
