@@ -107,7 +107,7 @@ export class BrowserManager {
                             method: "POST",
                             mode: "cors",
                             body: JSON.stringify({
-                                operationName: "LoginProfileUser",
+                                operationName: "InitiateLoginTransaction",
                                 variables: {
                                     email,
                                     password,
